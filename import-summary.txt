@@ -1,0 +1,235 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitattributes
+* 3xPoker.1.0.apk
+* 3xPoker.1.1.apk
+* 3xPoker.1.2.apk
+* 3xPoker.1.3.apk
+* 3xPoker.1.4.apk
+* 3xPoker.1.5.apk
+* 3xPoker.apk
+* 3xPoker.apk.bak
+* 3xPoker1.2.apk
+* Copy of AndroidManifest.xml
+* LICENSE
+* backup\
+* backup\.svn\
+* backup\.svn\all-wcprops
+* backup\.svn\entries
+* backup\.svn\lock
+* backup\.svn\prop-base\
+* backup\.svn\prop-base\back.png.svn-base
+* backup\.svn\prop-base\bet.png.svn-base
+* backup\.svn\prop-base\betframe.png.svn-base
+* backup\.svn\prop-base\btnbetone.png.svn-base
+* backup\.svn\prop-base\btnbetone2.png.svn-base
+* backup\.svn\prop-base\btndeal.png.svn-base
+* backup\.svn\prop-base\btndeal2.png.svn-base
+* backup\.svn\prop-base\btndraw.png.svn-base
+* backup\.svn\prop-base\btndraw2.png.svn-base
+* backup\.svn\prop-base\btnmaxbet.png.svn-base
+* backup\.svn\prop-base\btnmaxbet2.png.svn-base
+* backup\.svn\prop-base\credits.png.svn-base
+* backup\.svn\prop-base\panel.png.svn-base
+* backup\.svn\prop-base\resultsframe.png.svn-base
+* backup\.svn\prop-base\top_panel.PNG.svn-base
+* backup\.svn\prop-base\tsop.png.svn-base
+* backup\.svn\prop-base\win.png.svn-base
+* backup\.svn\text-base\
+* backup\.svn\text-base\back.png.svn-base
+* backup\.svn\text-base\bet.png.svn-base
+* backup\.svn\text-base\betframe.png.svn-base
+* backup\.svn\text-base\btnbetone.png.svn-base
+* backup\.svn\text-base\btnbetone2.png.svn-base
+* backup\.svn\text-base\btndeal.png.svn-base
+* backup\.svn\text-base\btndeal2.png.svn-base
+* backup\.svn\text-base\btndraw.png.svn-base
+* backup\.svn\text-base\btndraw2.png.svn-base
+* backup\.svn\text-base\btnmaxbet.png.svn-base
+* backup\.svn\text-base\btnmaxbet2.png.svn-base
+* backup\.svn\text-base\credits.png.svn-base
+* backup\.svn\text-base\panel.png.svn-base
+* backup\.svn\text-base\resultsframe.png.svn-base
+* backup\.svn\text-base\top_panel.PNG.svn-base
+* backup\.svn\text-base\tsop.png.svn-base
+* backup\.svn\text-base\win.png.svn-base
+* backup\back.png
+* backup\bet.png
+* backup\betframe.png
+* backup\btnbetone.png
+* backup\btnbetone2.png
+* backup\btndeal.png
+* backup\btndeal2.png
+* backup\btndraw.png
+* backup\btndraw2.png
+* backup\btnmaxbet.png
+* backup\btnmaxbet2.png
+* backup\credits.png
+* backup\panel.png
+* backup\resultsframe.png
+* backup\top_panel.PNG
+* backup\tsop.png
+* backup\win.png
+* default.properties
+* install to phone from desktop.bat
+* install to phone.bat
+* support files\
+* support files\.svn\
+* support files\.svn\all-wcprops
+* support files\.svn\entries
+* support files\.svn\lock
+* support files\.svn\prop-base\
+* support files\.svn\prop-base\Entertainer - Player.wav.svn-base
+* support files\.svn\prop-base\Nightlife-Drums.wav.svn-base
+* support files\.svn\prop-base\QR Code.png.svn-base
+* support files\.svn\prop-base\Swing That Thing-Swirling.wav.svn-base
+* support files\.svn\prop-base\Test Plan 1.3.xls.svn-base
+* support files\.svn\prop-base\Test Plan 1.4.xlsx.svn-base
+* support files\.svn\prop-base\Test Plan.xls.svn-base
+* support files\.svn\prop-base\back.psd.svn-base
+* support files\.svn\prop-base\betframe.psd.svn-base
+* support files\.svn\prop-base\betframe3.psd.svn-base
+* support files\.svn\prop-base\btnbetmax.psd.svn-base
+* support files\.svn\prop-base\btnbetone.psd.svn-base
+* support files\.svn\prop-base\btndeal.psd.svn-base
+* support files\.svn\prop-base\btndraw.psd.svn-base
+* support files\.svn\prop-base\deck.psd.svn-base
+* support files\.svn\prop-base\icon.psd.svn-base
+* support files\.svn\prop-base\layout.PNG.svn-base
+* support files\.svn\prop-base\layout2.PNG.svn-base
+* support files\.svn\prop-base\layout3.PNG.svn-base
+* support files\.svn\prop-base\lose.wav.svn-base
+* support files\.svn\prop-base\panel.psd.svn-base
+* support files\.svn\prop-base\panel2.psd.svn-base
+* support files\.svn\prop-base\promo.PNG.svn-base
+* support files\.svn\prop-base\resultsframe.psd.svn-base
+* support files\.svn\prop-base\resultsframe2.psd.svn-base
+* support files\.svn\prop-base\resultsframe3.psd.svn-base
+* support files\.svn\prop-base\screenshot1.png.svn-base
+* support files\.svn\prop-base\screenshot2.png.svn-base
+* support files\.svn\prop-base\splash2.mp3.svn-base
+* support files\.svn\prop-base\splash2.ogg.svn-base
+* support files\.svn\prop-base\splash2.wav.svn-base
+* support files\.svn\prop-base\splash3.ogg.svn-base
+* support files\.svn\prop-base\splash_background.psd.svn-base
+* support files\.svn\prop-base\splash_layout.PNG.svn-base
+* support files\.svn\prop-base\splash_layout.psd.svn-base
+* support files\.svn\prop-base\titlecards.psd.svn-base
+* support files\.svn\prop-base\wood grain.png.svn-base
+* support files\.svn\text-base\
+* support files\.svn\text-base\Entertainer - Player.wav.svn-base
+* support files\.svn\text-base\Nightlife-Drums.wav.svn-base
+* support files\.svn\text-base\QR Code.png.svn-base
+* support files\.svn\text-base\Swing That Thing-Swirling.wav.svn-base
+* support files\.svn\text-base\Test Plan 1.3.xls.svn-base
+* support files\.svn\text-base\Test Plan 1.4.xlsx.svn-base
+* support files\.svn\text-base\Test Plan.xls.svn-base
+* support files\.svn\text-base\back.psd.svn-base
+* support files\.svn\text-base\betframe.psd.svn-base
+* support files\.svn\text-base\betframe3.psd.svn-base
+* support files\.svn\text-base\btnbetmax.psd.svn-base
+* support files\.svn\text-base\btnbetone.psd.svn-base
+* support files\.svn\text-base\btndeal.psd.svn-base
+* support files\.svn\text-base\btndraw.psd.svn-base
+* support files\.svn\text-base\deck.psd.svn-base
+* support files\.svn\text-base\icon.psd.svn-base
+* support files\.svn\text-base\layout.PNG.svn-base
+* support files\.svn\text-base\layout2.PNG.svn-base
+* support files\.svn\text-base\layout3.PNG.svn-base
+* support files\.svn\text-base\lose.wav.svn-base
+* support files\.svn\text-base\notes.txt.svn-base
+* support files\.svn\text-base\panel.psd.svn-base
+* support files\.svn\text-base\panel2.psd.svn-base
+* support files\.svn\text-base\promo.PNG.svn-base
+* support files\.svn\text-base\resultsframe.psd.svn-base
+* support files\.svn\text-base\resultsframe2.psd.svn-base
+* support files\.svn\text-base\resultsframe3.psd.svn-base
+* support files\.svn\text-base\screenshot1.png.svn-base
+* support files\.svn\text-base\screenshot2.png.svn-base
+* support files\.svn\text-base\splash2.mp3.svn-base
+* support files\.svn\text-base\splash2.ogg.svn-base
+* support files\.svn\text-base\splash2.wav.svn-base
+* support files\.svn\text-base\splash3.ogg.svn-base
+* support files\.svn\text-base\splash_background.psd.svn-base
+* support files\.svn\text-base\splash_layout.PNG.svn-base
+* support files\.svn\text-base\splash_layout.psd.svn-base
+* support files\.svn\text-base\splash_sound.seq.svn-base
+* support files\.svn\text-base\titlecards.psd.svn-base
+* support files\.svn\text-base\wood grain.png.svn-base
+* support files\Entertainer - Player.wav
+* support files\Nightlife-Drums.wav
+* support files\QR Code.png
+* support files\Swing That Thing-Swirling.wav
+* support files\Test Plan 1.3.xls
+* support files\Test Plan 1.4.xlsx
+* support files\Test Plan.xls
+* support files\back.psd
+* support files\betframe.psd
+* support files\betframe3.psd
+* support files\btnbetmax.psd
+* support files\btnbetone.psd
+* support files\btndeal.psd
+* support files\btndraw.psd
+* support files\deck.psd
+* support files\icon.psd
+* support files\layout.PNG
+* support files\layout2.PNG
+* support files\layout3.PNG
+* support files\lose.wav
+* support files\notes.txt
+* support files\panel.psd
+* support files\panel2.psd
+* support files\promo.PNG
+* support files\resultsframe.psd
+* support files\resultsframe2.psd
+* support files\resultsframe3.psd
+* support files\screenshot1.png
+* support files\screenshot2.png
+* support files\splash2.mp3
+* support files\splash2.ogg
+* support files\splash2.wav
+* support files\splash3.ogg
+* support files\splash_background.psd
+* support files\splash_layout.PNG
+* support files\splash_layout.psd
+* support files\splash_sound.seq
+* support files\titlecards.psd
+* support files\wood grain.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* background.PNG => background.png
+* black_background.PNG => black_background.png
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* hold_frame.PNG => hold_frame.png
+* splash_background.PNG => splash_background.png
+* titlecardk.PNG => titlecardk.png
+* top_panel.PNG => top_panel.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
