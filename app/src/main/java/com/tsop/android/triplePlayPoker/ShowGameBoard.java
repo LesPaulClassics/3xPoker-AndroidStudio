@@ -83,7 +83,8 @@ public class ShowGameBoard extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.gameboard);
+//        setContentView(R.layout.gameboard);
+        setContentView(R.layout.gameboard_new);
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
         imgHoldFrames = new ImageView[] {(ImageView)findViewById(R.id.imgHold1),

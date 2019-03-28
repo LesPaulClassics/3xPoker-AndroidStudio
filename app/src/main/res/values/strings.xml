@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, ShowGameBoard!</string>
-    <string name="app_name">3xPoker</string>
+<string name="hello">Hello World, ShowGameBoard!</string>
+<string name="app_name">3xPoker</string>
 <string name="MENU_ITEM_SOUND_ON">Enable Sound</string>
 <string name="MENU_ITEM_RESET">Start Over</string>
 <string name="MENU_ITEM_PAYOUTS">View Payouts</string>
 <string name="MENU_ITEM_EXIT">Exit</string>
-<string name="GAME_OVER">&quot;You're Broke! Game Over.&quot;</string>
+<string name="GAME_OVER">&quot;You\'re Broke! Game Over.&quot;</string>
 <string name="PLACE_A_BET">Place A Bet</string>
 <string name="PAYOUT_TITLE">Payout Table</string>
 <string name="HAND">Hand</string>
