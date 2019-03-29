@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSplashBack"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_background"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgDeck"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/deck"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/glDeckBottom"
+        app:layout_constraintLeft_toRightOf="@id/glKLeft"
+        app:layout_constraintRight_toRightOf="@id/glKRight"
+        app:layout_constraintTop_toTopOf="@id/glDeckTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitleR"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glBottomBottom"
+        app:layout_constraintLeft_toRightOf="@id/glRLeft"
+        app:layout_constraintRight_toRightOf="@id/glRRight"
+        app:layout_constraintTop_toTopOf="@id/glBottomTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitleE"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glBottomBottom"
+        app:layout_constraintLeft_toRightOf="@id/glELeft"
+        app:layout_constraintRight_toRightOf="@id/glERight"
+        app:layout_constraintTop_toTopOf="@id/glBottomTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitleK"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glBottomBottom"
+        app:layout_constraintLeft_toRightOf="@id/glKLeft"
+        app:layout_constraintRight_toRightOf="@id/glKRight"
+        app:layout_constraintTop_toTopOf="@id/glBottomTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitleO"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glBottomBottom"
+        app:layout_constraintLeft_toRightOf="@id/glOLeft"
+        app:layout_constraintRight_toRightOf="@id/glORight"
+        app:layout_constraintTop_toTopOf="@id/glBottomTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitleP"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glBottomBottom"
+        app:layout_constraintLeft_toRightOf="@id/glPLeft"
+        app:layout_constraintRight_toRightOf="@id/glPRight"
+        app:layout_constraintTop_toTopOf="@id/glBottomTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitleX"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glTopBottom"
+        app:layout_constraintLeft_toRightOf="@id/glXLeft"
+        app:layout_constraintRight_toRightOf="@id/glXRight"
+        app:layout_constraintTop_toTopOf="@id/glTopTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTitle3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@id/glTopBottom"
+        app:layout_constraintLeft_toRightOf="@id/gl3Left"
+        app:layout_constraintRight_toRightOf="@id/gl3Right"
+        app:layout_constraintTop_toTopOf="@id/glTopTop"></ImageView>
+
+    <ImageView
+        android:id="@+id/imgTSOP"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/tsop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"></ImageView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glTopTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".33" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/gl3Left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glTopBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <android.support.constraint.Group
+        android:id="@+id/groupTopRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="glTopTop,glTopBottom,gl3Left,gl3Right,glXLeft,glXRight" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/gl3Right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".48" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glXLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".52" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glXRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".66" />
+
+    <android.support.constraint.Group
+        android:id="@+id/groupBottomRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="glBottomTop,glBottomBottom,glPLeft,glPRight,glOLeft,glORight,glKLeft,glKRight,glELeft,glERight,glRLeft,glRRight" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glBottomTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".50" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glBottomBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".62" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glPLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".07" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glPRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".21" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glOLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".25" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glORight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".39" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glKLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".43" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glKRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".57" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glELeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".61" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glERight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".75" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glRLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".79" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glRRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".93" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glDeckTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/glDeckBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.92" />
+</android.support.constraint.ConstraintLayout>

@@ -45,7 +45,8 @@ public class ShowSplashScreen extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.splash);
+//        setContentView(R.layout.splash);
+        setContentView(R.layout.splash_new);
 
         SharedPreferences settings = getSharedPreferences(Constants.PREFS_NAME, 0);
         if(settings.getBoolean(Constants.SOUND_ON_PREF, true))

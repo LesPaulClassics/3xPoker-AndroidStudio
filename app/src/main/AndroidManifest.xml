@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.tsop.android.triplePlayPoker"
-      android:versionName="1.7.1" android:versionCode="9" android:installLocation="auto">
+      android:versionName="1.7.2" android:versionCode="10" android:installLocation="auto">
     <uses-permission android:name="android.permission.VIBRATE" />
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".ShowSplashScreen"
